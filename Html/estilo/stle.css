@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Playfair+Display&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Bitter', serif;
+    --fonte3: 'Playfair Display', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+    font-family: var(--fonte1);
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 3em;
+    background-image: url('../matrix.gif');
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+a {
+    color: rgb(6, 85, 3);
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+
+section.branco {
+    background-color: whitesmoke;    
+    color: black;
+}
+
+section.preto {
+    background-color: rgba(0, 0, 0, 0.568);
+    color: whitesmoke;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
+section.preto {
+    
+    background-color: black;
+    text-shadow: 1px;
+    text-align: center;  
+    font-weight: bold;
+}
+
+
+section.branco {
+    text-align: center;   
+    background-color: white;
+    font-weight: bold;
+}
+
+section#img1 {
+    background-image: url('../tumblr_f2fbe57827c11f305af4eb0fa31c5307_90b0a2ee_400.gif');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#img2 {
+    background-image: url('../ADMGIF.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: whitesmoke;
+    color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 1em;
+    background-attachment: fixed;
+}
